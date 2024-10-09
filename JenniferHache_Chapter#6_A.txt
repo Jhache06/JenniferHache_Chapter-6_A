@@ -1,0 +1,78 @@
+Name: Jennifer Hache
+Date: 10/09/2024
+
+Description: 
+This program validates the user inputs for phone numbers, Social Security Numbers, and zip codes.
+ It utilizes regular expressions to ensure the inputs conform to the patterns provided.
+
+
+Logic Steps:
+
+1. Import the regular expression module
+	1a. Imported to use regular expressions for pattern matching.
+
+2. Define the test functions for the phone, social, and zip code.
+	2a. Define a regex pattern for valid phone numbers, social, and zip code.
+	
+3. Use a loop until a valid format is entered.
+	3a. Check the input against the patterns.
+	3b. If number is invalid, prompt will ask user to enter number again.
+
+4. Define the main function
+	4a. Use Print telling the user will be validating inputs
+	4b. Call each validation function and store the return values
+		phone_valid for phone number validation.
+		ssn_valid for social security validation.
+		zip_valid for zip code validation.
+
+5. If all input are true, call the main() function to start the validation process.
+	5a. After successful input collection, the program summarizes the validation results before exiting.
+	5a. For loop runs for a number of iterations from a random number generated between 0 and 12.
+
+
+
+Variables Used
+
+1. Pattern: 
+Desc: contains the string regex patterns
+
+2. x: 
+Desc: Stores the user input for phone, social, and zip code numbers
+	will be used for validation process.
+
+3. phone_valid:
+Desc: Stores the result of the phone number validation
+
+4. ssn_valid
+Desc: Stores the result of the Social Security Number validation
+
+5. zip_valid
+Desc: Stores the result of the zip code validation 
+
+Functions Used
+
+test_phone_number():
+Validates a phone number input.
+Parameters: none
+Returns: True if valid
+
+test_ssn(): 
+Validates a Social Security Number input.
+Parameters: none
+Returns: True if valid
+
+test_zip_code():
+Validates a ZIP code input.
+Parameters: none
+Returns: True if valid
+
+main():
+validation process and displays results.
+Parameters: none
+Returns: helps run the program
+
+
+https://github.com/Jhache06/JenniferHache_Chapter-6_A.git
+
+Name: Jennifer Hache
+Date: 10/09/2024
